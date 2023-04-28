@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>FreeFireMax</title>
+    <link rel="stylesheet" href="style1.css">
+  </head>
+  <body>
+    <div class="contenedor">
+      
+      <div class="formulario">
+ <h1>
+Jugar FreeFire </h1>
+<form>
+<label for ="usuario"> nombre del usuario</label>
+<input type ="usuario"  name="ap-pat" id="usuario" minlength="8" maxlength ="12" placeholder="ingresa tu nombre">
+<br>
+<label for ="psw"> contraseña </label>
+<input type = "password" nombre="psw" id="psw"  minlength="4" maxlength ="4" placeholder="ingresa tu pin" pattern="[0-9]{8}">
+<br>
+<label for ="opcion"> modo de juego </label>
+<select name ="  " id=" ">
+<option value "opcion1 "> Clasico </option>
+<option value "opcion2 "> Clasificatoria </option>
+<option value "opcion3 "> Duelo de escuadras </option>
+<option value "opcion4 "> DE-Clasificatoria </option>
+<option value "opcion5 "> Mascotas</option>
+<option value "opcion6 "> Zombie</option>
+</select>
+<br>
+<label for ="rango"> Duracion</label>
+<input type= "range" min="1" max="10" step="1" name="rango" id="rango">
+<br>
+<label for="radio"> En solo</label>
+<input type= "radio"  name="opciones" id="opcion1" value="si">
+<label for="opcion1"> si </label>
+
+<input type= "radio"  name="opciones" id="opcion1" value="no">
+<label for="opcion2"> no </label>
+<br>
+<label for="checkbox"> otra </label>
+<input type= "checkbox"  name="opciones" id="opcion11" value="opciones">
+<label for="opcion11"> Lobo solitario </label>
+<input type= "checkbox"  name="opciones" id="opcion2" value="opciones">
+<label for="opcion2"> Escuadra </label>
+<br>
+<input type= "checkbox"  name="opciones" id="opcion3" value="opciones">
+<label for="opcion3"> Duo </label>
+<br>
+<textarea name="area1" id="area1"  cols="15" rows ="10">
+texto por defecto
+</textarea>
+<br>
+
+<input type= "submit" value="Iniciar">
+<br>
+<input type= "reset" value="Cancelar">
+<br>
+   </form>     
+      </div>
+    </div>
+  </body>
+</html>
